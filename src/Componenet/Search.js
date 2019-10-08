@@ -1,6 +1,6 @@
 import React from 'react';
-import preload from '../data.json';
 import ShowCard from './ShowCard.js';
+import Header from './Header';
 
 class Search extends React.Component {
   constructor(props) {
@@ -14,22 +14,18 @@ class Search extends React.Component {
   handelSerchTermChange = event => {
     this.setState({ searchTerm: event.target.value });
   };
+
   render() {
     return (
       <div className="search">
-        <header>
-          <h1>uranium imdb</h1>
-          <input onChange={this.handelSerchTermChange} value={this.state.searchTerm} type="text" placeholder="search" />
-        </header>
+        <Header ShowSearch searchTerm={this.state.searchTerm} handelSerchTermChange={this.handelSerchTermChange} />
+
         <div>
-          {preload.shows
-            .filter(
-              show =>
-                `${show.title} ${show.descreption}`.toUpperCase().indexOf(this.state.searchTerm.toUpperCase()) >= 0
-            )
-            .map(show => {
-              return <ShowCard key={show.imdbID} {...show} />;
-            })}
+          {this.props.Shows.filter(
+            show => `${show.title} ${show.descreption}`.toUpperCase().indexOf(this.state.searchTerm.toUpperCase()) >= 0
+          ).map(show => {
+            return <ShowCard key={show.imdbID} {...show} />;
+          })}
         </div>
       </div>
     );
