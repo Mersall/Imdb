@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/MesalIMDB/static/css/main.ff7a3064.chunk.css",
-    "main.js": "/MesalIMDB/static/js/main.94311ae1.chunk.js",
-    "main.js.map": "/MesalIMDB/static/js/main.94311ae1.chunk.js.map",
-    "runtime-main.js": "/MesalIMDB/static/js/runtime-main.354c18e7.js",
-    "runtime-main.js.map": "/MesalIMDB/static/js/runtime-main.354c18e7.js.map",
-    "static/js/2.b0951c82.chunk.js": "/MesalIMDB/static/js/2.b0951c82.chunk.js",
-    "static/js/2.b0951c82.chunk.js.map": "/MesalIMDB/static/js/2.b0951c82.chunk.js.map",
+    "main.js": "/MesalIMDB/static/js/main.a11a6409.chunk.js",
+    "main.js.map": "/MesalIMDB/static/js/main.a11a6409.chunk.js.map",
+    "runtime-main.js": "/MesalIMDB/static/js/runtime-main.bae077fc.js",
+    "runtime-main.js.map": "/MesalIMDB/static/js/runtime-main.bae077fc.js.map",
+    "static/js/2.43540b21.chunk.js": "/MesalIMDB/static/js/2.43540b21.chunk.js",
+    "static/js/2.43540b21.chunk.js.map": "/MesalIMDB/static/js/2.43540b21.chunk.js.map",
     "index.html": "/MesalIMDB/index.html",
-    "precache-manifest.bb4154383aae976f11be4e7e2807b652.js": "/MesalIMDB/precache-manifest.bb4154383aae976f11be4e7e2807b652.js",
+    "precache-manifest.d74aa9af8b5bfc81be977140ebf72f4c.js": "/MesalIMDB/precache-manifest.d74aa9af8b5bfc81be977140ebf72f4c.js",
     "service-worker.js": "/MesalIMDB/service-worker.js",
     "static/css/main.ff7a3064.chunk.css.map": "/MesalIMDB/static/css/main.ff7a3064.chunk.css.map",
     "static/media/index.css": "/MesalIMDB/static/media/6.c6e75821.jpeg",
@@ -29,9 +29,9 @@
     "static/media/ww.jpg": "/MesalIMDB/static/media/ww.0db12757.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.354c18e7.js",
-    "static/js/2.b0951c82.chunk.js",
+    "static/js/runtime-main.bae077fc.js",
+    "static/js/2.43540b21.chunk.js",
     "static/css/main.ff7a3064.chunk.css",
-    "static/js/main.94311ae1.chunk.js"
+    "static/js/main.a11a6409.chunk.js"
   ]
 }
