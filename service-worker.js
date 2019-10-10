@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/MesalIMDB/precache-manifest.d74aa9af8b5bfc81be977140ebf72f4c.js"
+  "/MesalIMDB/precache-manifest.e58549f4dae82f18fb1b0d17febe12c1.js"
 );
 
 self.addEventListener('message', (event) => {

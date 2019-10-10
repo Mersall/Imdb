@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e7dd81818e400db80a15d4a954769d4e",
+    "revision": "47d7cf17d916e373f819f09588854719",
     "url": "/MesalIMDB/index.html"
   },
   {
-    "revision": "843daa34fdcfaf8748c0",
-    "url": "/MesalIMDB/static/css/main.ff7a3064.chunk.css"
+    "revision": "057524a2b0421f78debb",
+    "url": "/MesalIMDB/static/css/main.d5f4f101.chunk.css"
   },
   {
-    "revision": "30c5ba89a80423c71ce0",
-    "url": "/MesalIMDB/static/js/2.43540b21.chunk.js"
+    "revision": "05ec76164165e54180da",
+    "url": "/MesalIMDB/static/js/2.4cb352c8.chunk.js"
   },
   {
-    "revision": "843daa34fdcfaf8748c0",
-    "url": "/MesalIMDB/static/js/main.a11a6409.chunk.js"
+    "revision": "057524a2b0421f78debb",
+    "url": "/MesalIMDB/static/js/main.05abc2ee.chunk.js"
   },
   {
-    "revision": "53e35fa0ddccfc0667c3",
-    "url": "/MesalIMDB/static/js/runtime-main.bae077fc.js"
-  },
-  {
-    "revision": "c6e758219e29aaf357463932853210df",
-    "url": "/MesalIMDB/static/media/6.c6e75821.jpeg"
+    "revision": "13b3b07d5740225a4465",
+    "url": "/MesalIMDB/static/js/runtime-main.354c18e7.js"
   },
   {
     "revision": "b74697f7c9553efd5f735160183604cc",
