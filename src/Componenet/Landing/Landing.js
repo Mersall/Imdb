@@ -5,11 +5,11 @@ const Landing = () => {
   return (
     <div className="landing">
       <Link to="/search">
-        <h1>Mersal Netflex</h1>
+        <h1> Netflex</h1>
       </Link>
 
       <div className="user-tab">
-        <h2>who`s watching</h2>
+        <h2>who`s watching ?</h2>
         <div className="users">
           <Link to="/search">
             <h4>Mersal</h4>

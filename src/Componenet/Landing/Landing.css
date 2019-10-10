@@ -10,19 +10,17 @@
   justify-content: center;
 }
 .user-tab h2 {
-  color: white;
-  font-family: monospace;
-  letter-spacing: 10px;
+  color: #fff;
   font-size: 60px;
-  font-weight: 200;
   align-self: center;
+  font-weight: 300;
 }
 .users {
   align-self: center;
 }
 .users a {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   text-align: center;
   padding: 23px 0px;
   margin: 10px;
@@ -32,7 +30,7 @@
   border-color: transparent;
   text-decoration: none;
   box-sizing: border-box;
-  border: 0.3em solid rgba(0, 0, 0, 0.4);
+  border: 2px solid rgba(0, 0, 0, 0.4);
 }
 .user-tab h4 {
   display: inline-block;
@@ -42,7 +40,7 @@
 
 .users > a:hover,
 .users > a:focus {
-  border: 0.3em solid white;
+  border-color: white;
 }
 
 .users > a:active {
