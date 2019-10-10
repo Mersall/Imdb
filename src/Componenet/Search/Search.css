@@ -1,6 +1,6 @@
-.details,
 .search {
   border-radius: 5px;
+  color: white;
 }
 
 .search > div {
@@ -8,12 +8,17 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: stretch;
+  color: white;
 }
 
 pre {
   text-align: left;
-}     
+}
 
-.search > header + div {
-  margin-top: 25px;
+.search > div {
+  margin-top: 15px;
+}
+
+.eYJPSJ {
+  color: white;
 }

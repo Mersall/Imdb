@@ -4,10 +4,9 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-
 body {
-  margin: 0;
   background: #141414;
+  margin: 0;
 }
 * {
   box-sizing: border-box;
@@ -17,6 +16,7 @@ details,
 header,
 section {
   display: block;
+  color: white;
 }
 
 h1 {
