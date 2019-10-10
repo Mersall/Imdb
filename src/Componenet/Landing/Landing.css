@@ -1,0 +1,68 @@
+.landing h1 {
+  display: inline-block;
+  color: red;
+  margin-left: 10px;
+}
+.user-tab {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+}
+.user-tab h2 {
+  color: white;
+  font-family: monospace;
+  letter-spacing: 10px;
+  font-size: 60px;
+  font-weight: 200;
+  align-self: center;
+}
+.users {
+  align-self: center;
+}
+.users a {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  padding: 23px 0px;
+  margin: 10px;
+  background-color: #333;
+  color: #fafafa;
+  display: inline-block;
+  border-color: transparent;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: 0.3em solid rgba(0, 0, 0, 0.4);
+}
+.user-tab h4 {
+  display: inline-block;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.users > a:hover,
+.users > a:focus {
+  border: 0.3em solid white;
+}
+
+.users > a:active {
+  background-color: #fafafa;
+  color: #333;
+  border-color: #333;
+}
+
+@media only screen and (max-width: 700px) {
+  .user-tab h2 {
+    letter-spacing: 5px;
+    font-size: 40px;
+  }
+  .users a {
+    width: 100px;
+    height: 100px;
+    padding: 9px 0px;
+  }
+
+  .landing h1 {
+    font-size: 20px;
+  }
+}

@@ -1,6 +1,7 @@
 import React from 'react';
-import ShowCard from './ShowCard.js';
-import Header from './Header';
+import ShowCard from '../showCard/ShowCard';
+import Header from '../Header/Header';
+import './Search.css';
 
 class Search extends React.Component {
   constructor(props) {

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Header.css';
 
 const Header = props => {
   let sup;
@@ -15,7 +16,7 @@ const Header = props => {
   return (
     <header>
       <h1>
-        <Link to="/">Mersal Imdb</Link>
+        <Link to="/">Mersal Netflex</Link>
       </h1>
       {sup}
     </header>

@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Search from './Componenet/Search';
-import Details from './Componenet/Details';
+import Search from './Componenet/Search/Search';
+import Details from './Componenet/Details/Details';
 import preload from './data.json';
+import Landing from './Componenet/Landing/Landing';
 
 const FourOhFour = () => <h1>Page not found</h1>;
 
@@ -11,7 +12,8 @@ function App() {
     <Router>
       <div className="app">
         <Switch>
-          <Route exact path="/" component={() => <Search Shows={preload.shows} />} />
+          <Route exact path="/" component={Landing} />
+          <Route path="/search" component={() => <Search Shows={preload.shows} />} />
           <Route
             path="/details/:id"
             component={props => {

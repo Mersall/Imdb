@@ -22,7 +22,7 @@ const Image = styled.img`
 const ShowCard = props => {
   return (
     <Wrapper to={`/details/${props.imdbID}`}>
-      <Image alt={`${props.title} props poster`} src={require(`../img/posters/${props.poster}`)} />
+      <Image alt={`${props.title} props poster`} src={require(`../../img/posters/${props.poster}`)} />
       <div>
         <h3>{props.title}</h3>
         <h4>({props.year})</h4>

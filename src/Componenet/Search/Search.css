@@ -1,0 +1,19 @@
+.details,
+.search {
+  border-radius: 5px;
+}
+
+.search > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+pre {
+  text-align: left;
+}     
+
+.search > header + div {
+  margin-top: 25px;
+}

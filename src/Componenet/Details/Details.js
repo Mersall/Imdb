@@ -1,5 +1,6 @@
 import React from 'react';
-import Header from './Header.js';
+import Header from '../Header/Header';
+import './Details.css';
 
 class Details extends React.Component {
   render() {
@@ -10,7 +11,7 @@ class Details extends React.Component {
         <section>
           <h1>{title}</h1>
           <h2> ({year}) </h2>
-          <img alt={`poster for ${title}`} src={require(`../img/posters/${poster}`)} />
+          <img alt={`poster for ${title}`} src={require(`../../img/posters/${poster}`)} />
           <p>{description}</p>
         </section>
         <div>
