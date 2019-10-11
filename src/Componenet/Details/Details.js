@@ -8,7 +8,6 @@ class Details extends React.Component {
     return (
       <div className="details">
         <Header />
-
         <div>
           <iframe
             src={`https://www.youtube-nocookie.com/embed/${trailer}?rel=0&amp;controls=0&amp;showinfo=0`}

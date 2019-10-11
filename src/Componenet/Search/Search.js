@@ -1,7 +1,9 @@
 import React from 'react';
-import ShowCard from '../showCard/ShowCard';
 import Header from '../Header/Header';
 import './Search.css';
+import { Link } from 'react-router-dom';
+
+import SwipeToSlide from '../Slider/Slider.js';
 
 class Search extends React.Component {
   constructor(props) {
@@ -17,18 +19,32 @@ class Search extends React.Component {
   };
 
   render() {
-    return (
-      <div className="search">
-        <Header ShowSearch searchTerm={this.state.searchTerm} handelSerchTermChange={this.handelSerchTermChange} />
-
-        <div>
-          {this.props.Shows.filter(
-            show => `${show.title} ${show.descreption}`.toUpperCase().indexOf(this.state.searchTerm.toUpperCase()) >= 0
-          ).map(show => {
-            return <ShowCard key={show.imdbID} {...show} />;
-          })}
+    const ShowCard = this.props.Shows.filter(
+      show => `${show.title} ${show.descreption}`.toUpperCase().indexOf(this.state.searchTerm.toUpperCase()) >= 0
+    ).map(show => {
+      return (
+        <div key={show.imdbID}>
+          <Link to={`/details/${show.imdbID}`} className="card">
+            <img alt={`${show.title} poster`} src={require(`../../img/posters/${show.poster}`)} />
+          </Link>
+          <div className="description">
+            <span>{show.title}</span>
+            <span>{show.year}</span>
+            <span>{show.description}</span>
+          </div>
         </div>
-      </div>
+      );
+    });
+    return (
+      <>
+        <Header ShowSearch searchTerm={this.state.searchTerm} handelSerchTermChange={this.handelSerchTermChange} />
+        <div className="cover"></div>
+        <SwipeToSlide showCard={ShowCard} />
+        <SwipeToSlide showCard={ShowCard} />
+        <div className="cover2"></div>
+        <SwipeToSlide showCard={ShowCard} />
+        <SwipeToSlide showCard={ShowCard} />
+      </>
     );
   }
 }
