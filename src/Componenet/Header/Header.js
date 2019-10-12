@@ -1,22 +1,22 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './Header.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Header.css";
 
 class Header extends React.Component {
   state = {
-    backgroundColor: 'transparent'
+    backgroundColor: "transparent"
   };
 
   boundFun = e => {
     if (window.scrollY > 50) {
-      this.setState({ backgroundColor: 'rgb(20, 20, 20)' });
+      this.setState({ backgroundColor: "rgb(20, 20, 20)" });
     } else {
-      this.setState({ backgroundColor: 'transparent' });
+      this.setState({ backgroundColor: "transparent" });
     }
   };
 
   componentDidMount = () => {
-    window.addEventListener('scroll', this.boundFun, false);
+    window.addEventListener("scroll", this.boundFun, false);
   };
 
   render() {
@@ -39,8 +39,8 @@ class Header extends React.Component {
     } else {
       sup = (
         <Link to="/Search">
-          <img alt={this.props.title} src="https://img.icons8.com/ios-filled/50/000000/back.png" />
-          <h2>back to browse</h2>
+          <i class="fas fa-arrow-left"></i>
+          <h4>back to browse</h4>
         </Link>
       );
     }

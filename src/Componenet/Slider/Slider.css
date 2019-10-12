@@ -23,24 +23,6 @@
   transition: transform 0.5s;
 }
 
-.slick-slider:hover ~ .slick-slider.description {
-  display: inline-block;
-}
-
-.slick-slider .description {
-  position: relative;
-  z-index: 999;
-  top: -34px;
-  left: -56px;
-  text-decoration: none;
-  color: white;
-  display: none;
-}
-
-.slick-slider.description span {
-  margin-left: 10px;
-}
-
 .slick-prev {
   display: block;
   background-color: #0a0a0a;
