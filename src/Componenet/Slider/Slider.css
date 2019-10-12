@@ -11,15 +11,15 @@
 
 .slick-slide img {
   display: block;
-  max-height: 200px;
-  max-width: 240px;
-  min-width: 100px;
-  width: 210px;
+  min-height: 190px;
+  height: 190px;
+  width: 97%;
   padding-top: 30%;
 }
 
 .slick-slide img:hover {
-  transform: scale(1.5, 2);
+  transform: scale(2, 2.5);
+  height: 230px;
   transition: transform 0.5s;
 }
 
@@ -45,19 +45,21 @@
   display: block;
   background-color: #0a0a0a;
   opacity: 0.7;
-  height: 136px;
-  width: 43px;
-  top: 65%;
+  min-height: 65%;
+  height: 65%;
+  width: 40px;
+  top: 65.5%;
   left: -24px;
-  z-index: 1000;
+  z-index: 2;
 }
 
 .slick-next {
   background-color: #0a0a0a;
   opacity: 0.7;
-  height: 136px;
-  width: 43px;
-  top: 65%;
-  z-index: 1000;
-  right: -24px;
+  min-height: 65%;
+  height: 65%;
+  width: 40px;
+  top: 65.5%;
+  z-index: 2;
+  right: -20px;
 }
